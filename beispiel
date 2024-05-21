@@ -1,0 +1,90 @@
+{
+  "altimeter": {
+    "repr": "Q1005",
+    "spoken": "one zero zero five",
+    "value": 1005
+  },
+  "clouds": [
+    {
+      "altitude": 4,
+      "modifier": null,
+      "repr": "BKN004",
+      "type": "BKN"
+    }
+  ],
+  "density_altitude": 424,
+  "dewpoint": {
+    "repr": "14",
+    "spoken": "one four",
+    "value": 14
+  },
+  "flight_rules": "LIFR",
+  "meta": {
+    "stations_updated": "2024-05-13",
+    "timestamp": "2024-05-21T22:17:48.837384Z"
+  },
+  "other": [],
+  "pressure_altitude": 389,
+  "raw": "EDDL 212150Z AUTO 23003KT 8000 -RA BKN004 15/14 Q1005 TEMPO BKN007",
+  "relative_humidity": 0.9374053725583322,
+  "remarks": "TEMPO BKN007",
+  "remarks_info": {
+    "codes": [],
+    "dewpoint_decimal": null,
+    "maximum_temperature_24": null,
+    "maximum_temperature_6": null,
+    "minimum_temperature_24": null,
+    "minimum_temperature_6": null,
+    "precip_24_hours": null,
+    "precip_36_hours": null,
+    "precip_hourly": null,
+    "pressure_tendency": null,
+    "sea_level_pressure": null,
+    "snow_depth": null,
+    "sunshine_minutes": null,
+    "temperature_decimal": null
+  },
+  "runway_visibility": [],
+  "sanitized": "EDDL 212150Z 23003KT 8000 -RA BKN004 15/14 Q1005 TEMPO BKN007",
+  "station": "EDDL",
+  "temperature": {
+    "repr": "15",
+    "spoken": "one five",
+    "value": 15
+  },
+  "time": {
+    "dt": "2024-05-21T21:50:00Z",
+    "repr": "212150Z"
+  },
+  "units": {
+    "accumulation": "in",
+    "altimeter": "hPa",
+    "altitude": "ft",
+    "temperature": "C",
+    "visibility": "m",
+    "wind_speed": "kt"
+  },
+  "visibility": {
+    "repr": "8000",
+    "spoken": "eight thousand",
+    "value": 8000
+  },
+  "wind_direction": {
+    "repr": "230",
+    "spoken": "two three zero",
+    "value": 230
+  },
+  "wind_gust": null,
+  "wind_speed": {
+    "repr": "03",
+    "spoken": "three",
+    "value": 3
+  },
+  "wind_variable_direction": [],
+  "wx_codes": [
+    {
+      "repr": "-RA",
+      "value": "Light Rain"
+    }
+  ]
+}

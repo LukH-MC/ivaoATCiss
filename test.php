@@ -62,7 +62,17 @@ else {
     </div>
     <div id="wind">
         <?php
-        //TODO:wind
+        if (!$error) {
+            echo "<h2> Wind:</h2> \n";
+            echo "<h3>Dir: " . $results->wind_direction->value . " Speed:" . $results->wind_speed->value . "</h3>";
+            if ($results->wind_gust != NULL) {
+                echo "Gust: " . $results->wind_gust->value;
+                echo "Spoken: WIND " . strtoupper($results->wind_direction->spoken) . " AT " . strtoupper($results->wind_speed->spoken) . "GUSTING AT " . strtoupper($results->wind_gust->spoken);
+            }
+            else {
+                echo "Spoken: WIND " . strtoupper($results->wind_direction->spoken) . " AT " . strtoupper($results->wind_speed->spoken);
+            }
+        }
         ?>
     </div>
     <div id="clouds">

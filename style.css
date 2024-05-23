@@ -11,16 +11,24 @@ header {
     float: left;
 }
 #time {
-    border: 1px black;
+    border: black 1px solid;
     font-family: monospace;
     text-align: center;
     float: left;
     position: absolute;
-    left: 47%;
+    left: 48.5%;
     /*TODO: vernünftig zentrieren*/
 }
 .devide {
     background-color: lightskyblue;
     height: 10px;
     clear: left;
+    margin-bottom: 10px;
+}
+#state {
+    text-align: center;
+    margin: 0 auto;
+    width: 5%;
+    border: black 2px double;
+
 }

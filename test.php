@@ -50,7 +50,14 @@ else {
 <main>
     <div id="state">
         <?php
-        //TODO:IMC/VMC
+        if (!$error) {
+            if ($results->flight_rules != "IFR" || $results->flight_rules != "LIFR") {
+                echo "<h1 style='color: green'>VMC</h1>";
+            }
+            else {
+                echo "<h1 style='color: red'>IMC</h1>";
+            }
+        }
         ?>
     </div>
     <div id="wind">

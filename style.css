@@ -1,4 +1,26 @@
 header {
-    background-color: #4242e7;
+    background-color: #0082b3;
+}
+.titlebar {
+    background-color: #0082b3;
+    height: 10%;
+}
+#icao {
+    font-family: monospace;
+    text-align: left;
     float: left;
+}
+#time {
+    border: 1px black;
+    font-family: monospace;
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 47%;
+    /*TODO: vernünftig zentrieren*/
+}
+.devide {
+    background-color: lightskyblue;
+    height: 10px;
+    clear: left;
 }
